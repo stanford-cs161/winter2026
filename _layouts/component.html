@@ -1,0 +1,27 @@
+{% capture ref %}{% include displaytitle component=page %}{% endcapture %}
+<div class="component">
+    <h2 id="{{ ref | slugify }}">
+        {{ ref }}
+    </h2>
+    {% for time in page.times %}
+    <span class="component-meta">
+        {% if site.long_components contains page.type %}
+            Release: {% include timeanddate datetime=time.begin format='%a, %b %e, %l:%M %P' %}
+            {% if time.end %}
+                &ndash;
+                Due: {% include timeanddate datetime=time.end format='%a, %b %e, %l:%M %P' %}
+            {% endif %}
+        {% else %}
+            {% include timeanddate datetime=time.begin format='%a, %b %e, %l:%M %P' %}
+            {% if time.end %}
+                &ndash;
+                {% include timeanddate datetime=time.end format='%l:%M %P' %}
+            {% endif %}
+        {% endif %}
+        {% if time.label %} ({{ time.label }}){% endif %}
+    </span>
+    {% endfor %}
+    <div>
+        {{ content }}
+    </div>
+</div>

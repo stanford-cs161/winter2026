@@ -1,0 +1,86 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole site, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing these this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: CS 161
+tagline: Design and Analysis of Algorithms
+description: Stanford University, Winter 2025
+author: Nima Anari and Moses Charikar
+baseurl: '/winter2025' # the subpath of your site, e.g. /blog
+url: 'https://stanford-cs161.github.io' # the base hostname & protocol for your site, e.g. http://example.com
+exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+
+# Data
+roles: ['Instructor', 'Course Manager', 'Course Coordinator', 'Head Course Assistant', 'Course Assistant']
+long_components: ['homework']
+master_pages:
+  lecture: 'lectures'
+  homework: 'homework'
+  exam: 'exams'
+  section: 'sections'
+files_path: '/assets/files'
+bank_path: '/winter2025-bank'
+extra_repo: 'stanford-cs161/winter2025-extra'
+
+# Theme settings
+remote_theme: pmarsceill/just-the-docs@v0.3.3
+color_scheme: stanford
+search_enabled: true
+heading_anchors: true
+permalink: pretty
+aux_links:
+  Canvas:
+    - 'https://canvas.stanford.edu/courses/200398'
+  Ed:
+    - 'https://edstem.org/us/courses/70096'
+  Gradescope:
+    - 'https://www.gradescope.com/courses/930220'
+aux_links_new_tab: true
+footer_content:
+
+# Collections for website data
+collections:
+  staff:
+  components:
+
+# Default layouts for each collection type
+defaults:
+  - scope:
+      path: ''
+      type: staff
+    values:
+      layout: staff
+      subpath: '/assets/staff/'
+  - scope:
+      path: ''
+      type: components
+    values:
+      layout: component
+      subpath: '/assets/files/'
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
+
+timezone: America/Los_Angeles
+timeanddate: 1240
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap

@@ -1,0 +1,290 @@
+{"0": {
+    "doc": "EthiCS Lectures",
+    "title": "EthiCS Lectures",
+    "content": " ",
+    "url": "http://localhost:4000/winter2024/ethics/",
+    "relUrl": "/ethics/"
+  },"1": {
+    "doc": "Exams",
+    "title": "General Exam Information",
+    "content": " ",
+    "url": "http://localhost:4000/winter2024/exams/#general-exam-information",
+    "relUrl": "/exams/#general-exam-information"
+  },"2": {
+    "doc": "Exams",
+    "title": "Exams",
+    "content": " ",
+    "url": "http://localhost:4000/winter2024/exams/",
+    "relUrl": "/exams/"
+  },"3": {
+    "doc": "Exams",
+    "title": "\n        Exam 1: Midterm\n    ",
+    "content": "Thu, Feb 15, 6:00 pm &ndash; 9:00 pm ",
+    "url": "http://localhost:4000/winter2024/exams/#exam-1-midterm",
+    "relUrl": "/exams/#exam-1-midterm"
+  },"4": {
+    "doc": "Exams",
+    "title": "\n        Exam 2: Final\n    ",
+    "content": "Mon, Mar 18, 3:30 pm &ndash; 6:30 pm ",
+    "url": "http://localhost:4000/winter2024/exams/#exam-2-final",
+    "relUrl": "/exams/#exam-2-final"
+  },"5": {
+    "doc": "Homework",
+    "title": "General Homework Information",
+    "content": " ",
+    "url": "http://localhost:4000/winter2024/homework/#general-homework-information",
+    "relUrl": "/homework/#general-homework-information"
+  },"6": {
+    "doc": "Homework",
+    "title": "Homework",
+    "content": " ",
+    "url": "http://localhost:4000/winter2024/homework/",
+    "relUrl": "/homework/"
+  },"7": {
+    "doc": "Homework",
+    "title": "\n        Homework 1\n    ",
+    "content": "Release: Wed, Jan 10, 11:59 pm &ndash; Due: Wed, Jan 17, 11:59 pm ",
+    "url": "http://localhost:4000/winter2024/homework/#homework-1",
+    "relUrl": "/homework/#homework-1"
+  },"8": {
+    "doc": "Homework",
+    "title": "\n        Homework 2\n    ",
+    "content": "Release: Wed, Jan 17, 11:59 pm &ndash; Due: Wed, Jan 24, 11:59 pm ",
+    "url": "http://localhost:4000/winter2024/homework/#homework-2",
+    "relUrl": "/homework/#homework-2"
+  },"9": {
+    "doc": "Homework",
+    "title": "\n        Homework 3\n    ",
+    "content": "Release: Wed, Jan 24, 11:59 pm &ndash; Due: Wed, Jan 31, 11:59 pm ",
+    "url": "http://localhost:4000/winter2024/homework/#homework-3",
+    "relUrl": "/homework/#homework-3"
+  },"10": {
+    "doc": "Homework",
+    "title": "\n        Homework 4\n    ",
+    "content": "Release: Wed, Jan 31, 11:59 pm &ndash; Due: Wed, Feb 7, 11:59 pm ",
+    "url": "http://localhost:4000/winter2024/homework/#homework-4",
+    "relUrl": "/homework/#homework-4"
+  },"11": {
+    "doc": "Homework",
+    "title": "\n        Homework 5\n    ",
+    "content": "Release: Wed, Feb 14, 11:59 pm &ndash; Due: Wed, Feb 21, 11:59 pm ",
+    "url": "http://localhost:4000/winter2024/homework/#homework-5",
+    "relUrl": "/homework/#homework-5"
+  },"12": {
+    "doc": "Homework",
+    "title": "\n        Homework 6\n    ",
+    "content": "Release: Wed, Feb 21, 11:59 pm &ndash; Due: Wed, Feb 28, 11:59 pm ",
+    "url": "http://localhost:4000/winter2024/homework/#homework-6",
+    "relUrl": "/homework/#homework-6"
+  },"13": {
+    "doc": "Homework",
+    "title": "\n        Homework 7\n    ",
+    "content": "Release: Wed, Feb 28, 11:59 pm &ndash; Due: Wed, Mar 6, 11:59 pm ",
+    "url": "http://localhost:4000/winter2024/homework/#homework-7",
+    "relUrl": "/homework/#homework-7"
+  },"14": {
+    "doc": "Homework",
+    "title": "\n        Homework 8\n    ",
+    "content": "Release: Wed, Mar 6, 11:59 pm &ndash; Due: Wed, Mar 13, 11:59 pm ",
+    "url": "http://localhost:4000/winter2024/homework/#homework-8",
+    "relUrl": "/homework/#homework-8"
+  },"15": {
+    "doc": "CS 161",
+    "title": "Design and Analysis of Algorithms",
+    "content": "Stanford University, Winter 2024 . Instructors: Nima Anari and Moses Charikar . Time: Mon &amp; Wed 10:30 am - 12:00 pm . Location: Skilling Auditorium . Course Description: This course will cover the basic approaches and mindsets for analyzing and designing algorithms and data structures. Topics include the following: Worst and average case analysis. Recurrences and asymptotics. Efficient algorithms for sorting, searching, and selection. Data structures: binary search trees, heaps, hash tables. Algorithm design techniques: divide-and-conquer, dynamic programming, greedy algorithms, amortized analysis, and randomization. Algorithms for fundamental graph problems: minimum-cost spanning tree, connected components, topological sort, and shortest paths. Possible additional topics: network flow and string searching. Prerequisites: CS 106B or CS 106X; CS 103 or CS 103B; CS 109 or STATS 116. ",
+    "url": "http://localhost:4000/winter2024/#design-and-analysis-of-algorithms",
+    "relUrl": "/#design-and-analysis-of-algorithms"
+  },"16": {
+    "doc": "CS 161",
+    "title": "Staff Contact",
+    "content": ". | The best way to reach the staff is by making a private post on Ed. | You may also reach us by email at cs161-win2324-staff@lists.stanford.edu (the Student Liaison monitors this mailing list) with any questions or concerns that you do not wish to post on Ed. | . ",
+    "url": "http://localhost:4000/winter2024/#staff-contact",
+    "relUrl": "/#staff-contact"
+  },"17": {
+    "doc": "CS 161",
+    "title": "CS 161",
+    "content": " ",
+    "url": "http://localhost:4000/winter2024/",
+    "relUrl": "/"
+  },"18": {
+    "doc": "Lectures",
+    "title": "General Lecture Information",
+    "content": ". | Lectures will be recorded and the recordings can be accessed on Canvas. | . ",
+    "url": "http://localhost:4000/winter2024/lectures/#general-lecture-information",
+    "relUrl": "/lectures/#general-lecture-information"
+  },"19": {
+    "doc": "Lectures",
+    "title": "Lectures",
+    "content": " ",
+    "url": "http://localhost:4000/winter2024/lectures/",
+    "relUrl": "/lectures/"
+  },"20": {
+    "doc": "Lectures",
+    "title": "\n        Lecture 1: Why are you here?\n    ",
+    "content": "Mon, Jan 8, 10:30 am &ndash; 12:00 pm (Nima) ",
+    "url": "http://localhost:4000/winter2024/lectures/#lecture-1-why-are-you-here",
+    "relUrl": "/lectures/#lecture-1-why-are-you-here"
+  },"21": {
+    "doc": "Lectures",
+    "title": "\n        Lecture 2: Asymptotics, Worst-Case Analysis, and MergeSort\n    ",
+    "content": "Wed, Jan 10, 10:30 am &ndash; 12:00 pm (Nima) ",
+    "url": "http://localhost:4000/winter2024/lectures/#lecture-2-asymptotics-worst-case-analysis-and-mergesort",
+    "relUrl": "/lectures/#lecture-2-asymptotics-worst-case-analysis-and-mergesort"
+  },"22": {
+    "doc": "Lectures",
+    "title": "\n        Lecture 3: Solving Recurrences and the Master Theorem\n    ",
+    "content": "Wed, Jan 17, 10:30 am &ndash; 12:00 pm (Moses) ",
+    "url": "http://localhost:4000/winter2024/lectures/#lecture-3-solving-recurrences-and-the-master-theorem",
+    "relUrl": "/lectures/#lecture-3-solving-recurrences-and-the-master-theorem"
+  },"23": {
+    "doc": "Lectures",
+    "title": "\n        Lecture 4: Median and Selection\n    ",
+    "content": "Mon, Jan 22, 10:30 am &ndash; 12:00 pm (Nima) ",
+    "url": "http://localhost:4000/winter2024/lectures/#lecture-4-median-and-selection",
+    "relUrl": "/lectures/#lecture-4-median-and-selection"
+  },"24": {
+    "doc": "Lectures",
+    "title": "\n        Lecture 5: Randomized Algorithms and QuickSort \n    ",
+    "content": "Wed, Jan 24, 10:30 am &ndash; 12:00 pm (Nima) ",
+    "url": "http://localhost:4000/winter2024/lectures/#lecture-5-randomized-algorithms-and-quicksort",
+    "relUrl": "/lectures/#lecture-5-randomized-algorithms-and-quicksort"
+  },"25": {
+    "doc": "Lectures",
+    "title": "\n        Lecture 6: BucketSort and Lower Bounds for Sorting\n    ",
+    "content": "Mon, Jan 29, 10:30 am &ndash; 12:00 pm (Moses) ",
+    "url": "http://localhost:4000/winter2024/lectures/#lecture-6-bucketsort-and-lower-bounds-for-sorting",
+    "relUrl": "/lectures/#lecture-6-bucketsort-and-lower-bounds-for-sorting"
+  },"26": {
+    "doc": "Lectures",
+    "title": "\n        Lecture 7: Binary Search Trees and Red-Black Trees\n    ",
+    "content": "Wed, Jan 31, 10:30 am &ndash; 12:00 pm (Moses) ",
+    "url": "http://localhost:4000/winter2024/lectures/#lecture-7-binary-search-trees-and-red-black-trees",
+    "relUrl": "/lectures/#lecture-7-binary-search-trees-and-red-black-trees"
+  },"27": {
+    "doc": "Lectures",
+    "title": "\n        Lecture 8: Hashing\n    ",
+    "content": "Mon, Feb 5, 10:30 am &ndash; 12:00 pm (Nima) ",
+    "url": "http://localhost:4000/winter2024/lectures/#lecture-8-hashing",
+    "relUrl": "/lectures/#lecture-8-hashing"
+  },"28": {
+    "doc": "Lectures",
+    "title": "\n        Lecture 9: Graphs and BFS and DFS\n    ",
+    "content": "Wed, Feb 7, 10:30 am &ndash; 12:00 pm (Nima) ",
+    "url": "http://localhost:4000/winter2024/lectures/#lecture-9-graphs-and-bfs-and-dfs",
+    "relUrl": "/lectures/#lecture-9-graphs-and-bfs-and-dfs"
+  },"29": {
+    "doc": "Lectures",
+    "title": "\n        Lecture 10: Strongly Connected Components\n    ",
+    "content": "Mon, Feb 12, 10:30 am &ndash; 12:00 pm (Moses) ",
+    "url": "http://localhost:4000/winter2024/lectures/#lecture-10-strongly-connected-components",
+    "relUrl": "/lectures/#lecture-10-strongly-connected-components"
+  },"30": {
+    "doc": "Lectures",
+    "title": "\n        Lecture 11: Dijkstra and Bellman-Ford\n    ",
+    "content": "Wed, Feb 14, 10:30 am &ndash; 12:00 pm (Moses) ",
+    "url": "http://localhost:4000/winter2024/lectures/#lecture-11-dijkstra-and-bellman-ford",
+    "relUrl": "/lectures/#lecture-11-dijkstra-and-bellman-ford"
+  },"31": {
+    "doc": "Lectures",
+    "title": "\n        Lecture 12: Dynamic Programming: Bellman-Ford and Floyd-Warshall\n    ",
+    "content": "Wed, Feb 21, 10:30 am &ndash; 12:00 pm (Nima) ",
+    "url": "http://localhost:4000/winter2024/lectures/#lecture-12-dynamic-programming-bellman-ford-and-floyd-warshall",
+    "relUrl": "/lectures/#lecture-12-dynamic-programming-bellman-ford-and-floyd-warshall"
+  },"32": {
+    "doc": "Lectures",
+    "title": "\n        Lecture 13: More Dynamic Programming: LCS, Knapsack, Independent Set\n    ",
+    "content": "Mon, Feb 26, 10:30 am &ndash; 12:00 pm (Moses) ",
+    "url": "http://localhost:4000/winter2024/lectures/#lecture-13-more-dynamic-programming-lcs-knapsack-independent-set",
+    "relUrl": "/lectures/#lecture-13-more-dynamic-programming-lcs-knapsack-independent-set"
+  },"33": {
+    "doc": "Lectures",
+    "title": "\n        Lecture 14: Greedy Algorithms\n    ",
+    "content": "Wed, Feb 28, 10:30 am &ndash; 12:00 pm (Moses) ",
+    "url": "http://localhost:4000/winter2024/lectures/#lecture-14-greedy-algorithms",
+    "relUrl": "/lectures/#lecture-14-greedy-algorithms"
+  },"34": {
+    "doc": "Lectures",
+    "title": "\n        Lecture 15: Minimum Spanning Trees\n    ",
+    "content": "Mon, Mar 4, 10:30 am &ndash; 12:00 pm (Nima) ",
+    "url": "http://localhost:4000/winter2024/lectures/#lecture-15-minimum-spanning-trees",
+    "relUrl": "/lectures/#lecture-15-minimum-spanning-trees"
+  },"35": {
+    "doc": "Lectures",
+    "title": "\n        Lecture 16: Max-Flow and the Ford-Fulkerson Algorithm\n    ",
+    "content": "Wed, Mar 6, 10:30 am &ndash; 12:00 pm (Nima) ",
+    "url": "http://localhost:4000/winter2024/lectures/#lecture-16-max-flow-and-the-ford-fulkerson-algorithm",
+    "relUrl": "/lectures/#lecture-16-max-flow-and-the-ford-fulkerson-algorithm"
+  },"36": {
+    "doc": "Lectures",
+    "title": "\n        Lecture 17: Stable Matchings and Gale-Shapley\n    ",
+    "content": "Mon, Mar 11, 10:30 am &ndash; 12:00 pm (Moses) ",
+    "url": "http://localhost:4000/winter2024/lectures/#lecture-17-stable-matchings-and-gale-shapley",
+    "relUrl": "/lectures/#lecture-17-stable-matchings-and-gale-shapley"
+  },"37": {
+    "doc": "Lectures",
+    "title": "\n        Lecture 18: What's next?\n    ",
+    "content": "Wed, Mar 13, 10:30 am &ndash; 12:00 pm (Moses) ",
+    "url": "http://localhost:4000/winter2024/lectures/#lecture-18-what-s-next",
+    "relUrl": "/lectures/#lecture-18-what-s-next"
+  },"38": {
+    "doc": "Policies",
+    "title": "Policies",
+    "content": " ",
+    "url": "http://localhost:4000/winter2024/policies/",
+    "relUrl": "/policies/"
+  },"39": {
+    "doc": "Resources",
+    "title": "Resources",
+    "content": " ",
+    "url": "http://localhost:4000/winter2024/resources/",
+    "relUrl": "/resources/"
+  },"40": {
+    "doc": "Schedule",
+    "title": "Schedule",
+    "content": "Mon, Jan 8 Lecture 1: Why are you here? (Nima) Wed, Jan 10 Lecture 2: Asymptotics, Worst-Case Analysis, and MergeSort (Nima) Release Homework 1 Wed, Jan 17 Lecture 3: Solving Recurrences and the Master Theorem (Moses) DueHomework 1 Release Homework 2 Mon, Jan 22 Lecture 4: Median and Selection (Nima) Wed, Jan 24 Lecture 5: Randomized Algorithms and QuickSort (Nima) DueHomework 2 Release Homework 3 Mon, Jan 29 Lecture 6: BucketSort and Lower Bounds for Sorting (Moses) Wed, Jan 31 Lecture 7: Binary Search Trees and Red-Black Trees (Moses) DueHomework 3 Release Homework 4 Mon, Feb 5 Lecture 8: Hashing (Nima) Wed, Feb 7 Lecture 9: Graphs and BFS and DFS (Nima) DueHomework 4 Mon, Feb 12 Lecture 10: Strongly Connected Components (Moses) Wed, Feb 14 Lecture 11: Dijkstra and Bellman-Ford (Moses) Release Homework 5 Thu, Feb 15 Exam 1: Midterm Wed, Feb 21 Lecture 12: Dynamic Programming: Bellman-Ford and Floyd-Warshall (Nima) DueHomework 5 Release Homework 6 Mon, Feb 26 Lecture 13: More Dynamic Programming: LCS, Knapsack, Independent Set (Moses) Wed, Feb 28 Lecture 14: Greedy Algorithms (Moses) DueHomework 6 Release Homework 7 Mon, Mar 4 Lecture 15: Minimum Spanning Trees (Nima) Wed, Mar 6 Lecture 16: Max-Flow and the Ford-Fulkerson Algorithm (Nima) DueHomework 7 Release Homework 8 Mon, Mar 11 Lecture 17: Stable Matchings and Gale-Shapley (Moses) Wed, Mar 13 Lecture 18: What's next? (Moses) DueHomework 8 Mon, Mar 18 Exam 2: Final ",
+    "url": "http://localhost:4000/winter2024/schedule/",
+    "relUrl": "/schedule/"
+  },"41": {
+    "doc": "Sections",
+    "title": "General Section Information",
+    "content": " ",
+    "url": "http://localhost:4000/winter2024/sections/#general-section-information",
+    "relUrl": "/sections/#general-section-information"
+  },"42": {
+    "doc": "Sections",
+    "title": "Sections",
+    "content": " ",
+    "url": "http://localhost:4000/winter2024/sections/",
+    "relUrl": "/sections/"
+  },"43": {
+    "doc": "Staff / Office Hours",
+    "title": "Office Hours",
+    "content": " ",
+    "url": "http://localhost:4000/winter2024/staff/#office-hours",
+    "relUrl": "/staff/#office-hours"
+  },"44": {
+    "doc": "Staff / Office Hours",
+    "title": "Staff Contact",
+    "content": ". | The best way to reach the staff is by making a private post on Ed. | You may also reach us by email at cs161-win2324-staff@lists.stanford.edu (this mailing list is monitored by the Student Liaison) with any questions or concerns that you do not wish to post on Ed. | . ",
+    "url": "http://localhost:4000/winter2024/staff/#staff-contact",
+    "relUrl": "/staff/#staff-contact"
+  },"45": {
+    "doc": "Staff / Office Hours",
+    "title": "Instructors",
+    "content": "Moses Charikar . Nima Anari . ",
+    "url": "http://localhost:4000/winter2024/staff/#instructors",
+    "relUrl": "/staff/#instructors"
+  },"46": {
+    "doc": "Staff / Office Hours",
+    "title": "Course Manager",
+    "content": "Amelie Byun . ",
+    "url": "http://localhost:4000/winter2024/staff/#course-manager",
+    "relUrl": "/staff/#course-manager"
+  },"47": {
+    "doc": "Staff / Office Hours",
+    "title": "Staff / Office Hours",
+    "content": " ",
+    "url": "http://localhost:4000/winter2024/staff/",
+    "relUrl": "/staff/"
+  }
+}

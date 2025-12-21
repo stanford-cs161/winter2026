@@ -1,0 +1,26 @@
+---
+type: lecture
+number: 2
+subject: Asymptotics, Worst-Case Analysis, and MergeSort
+times:
+  - begin: 2025-01-08 10:30:00
+    end: 2025-01-08 12:00:00
+    label: Nima
+---
+##### Pre-lecture resources
+
+* Pre-lecture exercise: {% include magiclink name='lecture2-pre.pdf' %}
+* Pre-lecture Python notebook: {% include ipynb name='lecture2_pre' %}
+
+##### Lecture resources
+
+* Lecture notes: {% include magiclink name='lecture2-notes.pdf' %}
+* Slides: {% include magiclink name='lecture2-slides.pdf' %} {% include magiclink name='lecture2-slides.pptx' %}
+* Python notebook: {% include ipynb name='lecture2_sorting' %}
+* Concept check questions on asymptotics: {% include bank name='asymptotics' %}
+* Concept check questions on sorting: {% include bank name='sorting' %}
+* Additional reading: AI Part I 1.4, 1.5, 1.6, 2; CLRS 2.3, 3
+
+##### Recording
+
+* Video: [[Canvas](https://stanford-pilot.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b3061e0b-2541-49d6-8895-b243016dd6eb)]

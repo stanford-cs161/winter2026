@@ -1,0 +1,2 @@
+{% assign components = site.components | where: 'type', include.type | sort: 'number' %}
+{% for component in components %}{{ component }}{% endfor %}

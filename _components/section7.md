@@ -1,0 +1,24 @@
+---
+type: section
+number: 7
+times:
+  - begin: 2025-02-27 10:30:00
+    end: 2025-02-27 12:20:03
+    label: Samantha, 240-202, Bldg.240, Main Quad
+  - begin: 2025-02-27 14:30:13
+    end: 2025-02-27 16:20:13
+    label: Chirag, ENCINAW202, Encina Hall West
+  - begin: 2025-02-27 16:30:14
+    end: 2025-02-27 18:20:14
+    label: Allison, 160-B40, Wallenberg Hall, Main Quad
+  - begin: 2025-02-28 13:00:14
+    end: 2025-02-28 14:50:14
+    label: Shreyas, Remote and Recorded
+  - begin: 2025-02-28 15:00:11
+    end: 2025-02-28 16:50:11
+    label: Aidan, HEWLETT103, William R. Hewlett Teaching Center
+---
+##### Resources
+
+* Handout: {% include magiclink name='section_7_handout_W25.pdf' %}
+* Slides: {% include magiclink name='Section7-25W.pptx' %}

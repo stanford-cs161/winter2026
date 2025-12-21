@@ -1,0 +1,1 @@
+[[Interactive SVG]({{ site.bank_path }}/{{ include.name }}.svg)] [[Solved PDF]({{ site.bank_path }}/{{ include.name }}.pdf)]

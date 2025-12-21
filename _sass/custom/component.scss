@@ -1,0 +1,9 @@
+.main-content .component, .component {
+    @extend %card;
+    h1, h2 {
+        @extend .text-gamma;
+    }
+    .component-meta {
+        @extend .text-epsilon;
+    }
+}

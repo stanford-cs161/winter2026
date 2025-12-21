@@ -1,0 +1,10 @@
+{%- capture title -%}
+{{ include.component.type | capitalize }} {{ include.component.number }}{% if include.component.subject %}: {{ include.component.subject }}{% endif %}
+{%- endcapture -%}
+{%- if include.link -%}
+<a href="{{ site.baseurl }}/{{ site.master_pages[include.component.type] }}/#{{ title | slugify }}">
+{%- endif -%}
+{{ title }}
+{%- if include.link -%}
+</a>
+{%- endif -%}

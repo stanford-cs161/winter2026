@@ -1,0 +1,184 @@
+backend:
+  name: github
+  repo: stanford-cs161/winter2024
+  branch: main
+  site_domain: romantic-yonath-be0ac4.netlify.app
+publish_mode: editorial_workflow
+media_folder: '/assets/files'
+site_url: https://stanford-cs161.github.io/winter2024
+collections:
+  - name: 'pages'
+    label: 'Pages'
+    folder: '/'
+    create: false
+    identifier_field: 'title'
+    delete: false
+    fields:
+      - name: 'title'
+      - name: 'nav_order'
+        label: 'Navigation Order'
+        widget: 'number'
+        required: false
+      - name: 'body'
+        required: false
+        widget: 'markdown'
+  - name: 'lectures'
+    label: 'Lectures'
+    label_singular: 'Lecture'
+    folder: '/_components'
+    filter: {field: 'type', value: 'lecture'}
+    create: true
+    identifier_field: 'number'
+    sortable_fields: ['number', 'begin', 'commit_date']
+    slug: 'lecture{{number}}'
+    summary: 'Lecture {{number}}: {{subject}}'
+    fields:
+      - name: 'type'
+        widget: 'hidden'
+        default: 'lecture'
+      - name: 'number'
+        widget: 'number'
+      - name: 'subject'
+        required: false
+      - name: 'times'
+        widget: 'list'
+        summary: '{{fields.label}}: {{fields.begin}} - {{fields.end}}'
+        min: 1
+        max: 1
+        fields:
+        - name: 'begin'
+          widget: 'datetime'
+          format: 'YYYY-MM-DD HH:mm:ss'
+        - name: 'end'
+          widget: 'datetime'
+          format: 'YYYY-MM-DD HH:mm:ss'
+        - name: 'label'
+          required: false
+      - name: 'body'
+        required: false
+        widget: 'markdown'
+  - name: 'homework'
+    label: 'Homework'
+    folder: '/_components'
+    filter: {field: 'type', value: 'homework'}
+    create: true
+    identifier_field: 'number'
+    sortable_fields: ['number', 'begin', 'commit_date']
+    slug: 'homework{{number}}'
+    summary: 'Homework {{number}}: {{subject}}'
+    fields:
+      - name: 'type'
+        widget: 'hidden'
+        default: 'homework'
+      - name: 'number'
+        widget: 'number'
+      - name: 'subject'
+        required: false
+      - name: 'times'
+        widget: 'list'
+        summary: '{{fields.label}}: {{fields.begin}} - {{fields.end}}'
+        min: 1
+        max: 1
+        fields:
+        - name: 'begin'
+          widget: 'datetime'
+          format: 'YYYY-MM-DD HH:mm:ss'
+        - name: 'end'
+          widget: 'datetime'
+          format: 'YYYY-MM-DD HH:mm:ss'
+          required: false
+        - name: 'label'
+          required: false
+      - name: 'body'
+        required: false
+        widget: 'markdown'
+  - name: 'sections'
+    label: 'Sections'
+    label_singular: 'Section'
+    folder: '/_components'
+    filter: {field: 'type', value: 'section'}
+    create: true
+    identifier_field: 'number'
+    sortable_fields: ['number', 'begin', 'commit_date']
+    slug: 'section{{number}}'
+    summary: 'Section {{number}}: {{subject}}'
+    fields:
+      - name: 'type'
+        widget: 'hidden'
+        default: 'section'
+      - name: 'number'
+        widget: 'number'
+      - name: 'subject'
+        required: false
+      - name: 'times'
+        widget: 'list'
+        summary: '{{fields.label}}: {{fields.begin}} - {{fields.end}}'
+        fields:
+        - name: 'begin'
+          widget: 'datetime'
+          format: 'YYYY-MM-DD HH:mm:ss'
+        - name: 'end'
+          widget: 'datetime'
+          format: 'YYYY-MM-DD HH:mm:ss'
+        - name: 'label'
+          required: false
+      - name: 'body'
+        required: false
+        widget: 'markdown'
+  - name: 'exams'
+    label: 'Exams'
+    label_singular: 'Exam'
+    folder: '/_components'
+    filter: {field: 'type', value: 'exam'}
+    create: true
+    identifier_field: 'number'
+    sortable_fields: ['number', 'begin', 'commit_date']
+    slug: 'exam{{number}}'
+    summary: 'Exam {{number}}: {{subject}}'
+    fields:
+      - name: 'type'
+        widget: 'hidden'
+        default: 'exam'
+      - name: 'number'
+        widget: 'number'
+      - name: 'subject'
+        required: false
+      - name: 'times'
+        widget: 'list'
+        summary: '{{fields.label}}: {{fields.begin}} - {{fields.end}}'
+        min: 1
+        max: 1
+        fields:
+        - name: 'begin'
+          widget: 'datetime'
+          format: 'YYYY-MM-DD HH:mm:ss'
+        - name: 'end'
+          widget: 'datetime'
+          format: 'YYYY-MM-DD HH:mm:ss'
+        - name: 'label'
+          required: false
+      - name: 'body'
+        required: false
+        widget: 'markdown'
+  - name: 'staff'
+    label: 'Staff'
+    folder: '/_staff'
+    create: true
+    identifier_field: 'name'
+    media_folder: '/assets/staff'
+    public_folder: ''
+    fields:
+      - name: 'name'
+      - name: 'role'
+        widget: 'select'
+        options: ['Instructor', 'Head Course Assistant', 'Course Assistant', 'Course Coordinator', 'Course Manager']
+      - name: 'email'
+        required: false
+      - name: 'website'
+        required: false
+      - name: 'photo'
+        required: false
+        widget: 'image'
+      - name: 'body'
+        required: false
+        widget: 'markdown'

@@ -1,0 +1,36 @@
+{%- capture events -%}
+{%- for component in site.components -%}
+{%- for time in component.times -%}
+{{ time.begin }}^^{%- if site.long_components contains component.type %}<span class="label label-release">Release</span> {% endif -%}{%- include displaytitle component=component link=true -%}{%- if time.label %} ({{ time.label }}){% endif -%}^$
+{%- if site.long_components contains component.type -%}
+{%- if time.end -%}
+{{ time.end }}^^<span class="label label-due">Due</span> {%- include displaytitle component=component link=true %}^$
+{%- endif -%}
+{%- endif -%}
+{%- endfor -%}
+{%- endfor -%}
+{%- endcapture -%}
+
+{% assign events = events | split: '^$' | sort %}
+
+{% assign lastdate = '' %}
+
+<div class="schedule">
+<dl>
+{% for event in events %}
+{% assign decomposed = event | split: '^^' %}
+{% assign datetime = decomposed[0] %}
+{% assign name = decomposed[1] %}
+{% assign date = datetime | date: '%a, %b %e' %}
+{% if date == lastdate %}
+<dt></dt>
+{% else %}
+<dt>{{ date }}</dt>
+{% endif %}
+{% assign lastdate = date %}
+<dd>
+    {{ name }}
+</dd>
+{% endfor %}
+</dl>
+</div>

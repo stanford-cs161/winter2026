@@ -1,0 +1,1 @@
+[[{% assign extension = include.name | split: '.' | last %}{% if extension == 'pdf' %}PDF{% elsif extension == 'ppt' or extension == 'pptx' %}PowerPoint{% elsif extension == 'zip' %}Zip{% elsif extension == 'tex' %}TeX{% else %}{{ extension | upcase }}{% endif %}]({% include filelink name=include.name %})]

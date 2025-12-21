@@ -1,0 +1,1 @@
+[{{ include.name }}]({{ site.aux_links[include.name] }}){:target="_blank" :rel="noopener noreferrer"}

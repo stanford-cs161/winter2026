@@ -1,0 +1,23 @@
+---
+type: lecture
+number: 13
+subject: "More Dynamic Programming: LCS, Knapsack, Independent Set"
+times:
+  - begin: 2025-02-24 10:30:00
+    end: 2025-02-24 12:00:00
+    label: Nima
+---
+##### Pre-lecture resources
+
+* Pre-lecture exercise: None this time!
+
+##### Lecture resources
+
+* Lecture notes: {% include magiclink name='lecture13-notes.pdf' %}
+* Slides: {% include magiclink name='lecture13-slides.pdf' %} {% include magiclink name='lecture13-slides.pptx' %}
+* Concept check questions: {% include bank name='dp2' %}
+* Additional reading: AI Part III 16; CLRS 15.4
+
+##### Recording
+
+* Video: [[Canvas](https://stanford-pilot.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0fac82ec-e0f0-4186-9a42-b243016dd8cb)]

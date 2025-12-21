@@ -1,0 +1,25 @@
+---
+type: lecture
+number: 14
+subject: Greedy Algorithms
+times:
+  - begin: 2025-02-26 10:30:00
+    end: 2025-02-26 12:00:00
+    label: Nima
+---
+##### Pre-lecture resources
+
+* Pre-lecture exercise: {% include magiclink name='lecture14-pre.pdf' %}
+
+
+##### Lecture resources
+
+* Lecture notes: {% include magiclink name='lecture14-notes.pdf' %}
+* Slides: {% include magiclink name='lecture14-slides.pdf' %} {% include magiclink name='lecture14-slides.pptx' %}
+* Python notebook: {% include ipynb name='lecture14_greedy' %}
+* Concept check questions: {% include bank name='greedy' %}
+* Additional reading: AI Part III 13, 14; CLRS 16.1, 16.2, 16.3
+
+##### Recording
+
+* Video: [[Canvas](https://stanford-pilot.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=813dda2f-e950-409f-af6c-b243016dd8e2)]

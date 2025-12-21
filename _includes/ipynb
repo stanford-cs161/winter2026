@@ -1,0 +1,1 @@
+[[Colab](http://colab.research.google.com/github/{{ site.extra_repo }}/blob/colab/{{ include.name }}.ipynb)] [[Zip](https://{{ site.extra_repo | split: '/' | first }}.github.io/{{ site.extra_repo | split: '/' | last }}/{{ include.name }}.zip)]
