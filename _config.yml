@@ -16,9 +16,9 @@
 
 title: CS 161
 tagline: Design and Analysis of Algorithms
-description: Stanford University, Winter 2025
-author: Nima Anari and Moses Charikar
-baseurl: '/winter2025' # the subpath of your site, e.g. /blog
+description: Stanford University, Winter 2026
+author: Moses Charikar and Ellen Vitercik
+baseurl: '/winter2026' # the subpath of your site, e.g. /blog
 url: 'https://stanford-cs161.github.io' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
 
@@ -31,8 +31,8 @@ master_pages:
   exam: 'exams'
   section: 'sections'
 files_path: '/assets/files'
-bank_path: '/winter2025-bank'
-extra_repo: 'stanford-cs161/winter2025-extra'
+bank_path: '/winter2025-bank'  # TODO: update
+extra_repo: 'stanford-cs161/winter2025-extra'  # TODO: update
 
 # Theme settings
 remote_theme: pmarsceill/just-the-docs@v0.3.3
@@ -42,11 +42,11 @@ heading_anchors: true
 permalink: pretty
 aux_links:
   Canvas:
-    - 'https://canvas.stanford.edu/courses/200398'
+    - 'https://canvas.stanford.edu/courses/220112'
   Ed:
-    - 'https://edstem.org/us/courses/70096'
+    - 'https://edstem.org/us/courses/89748/discussion'
   Gradescope:
-    - 'https://www.gradescope.com/courses/930220'
+    - 'https://www.gradescope.com/courses/1207330'
 aux_links_new_tab: true
 footer_content:
 
