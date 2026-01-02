@@ -17,7 +17,7 @@ One section will be hosted on Zoom. You will find the Zoom links on the course {
 
 ## Accommodations
 
-Students who may need academic accommodations based on the impact of a disability must initiate the request with the Office of Accessible Education (OAE) and notify us at least 7 days (ONE week) prior to the exams. It is the student’s responsibility to reach out to the course staff regarding their accommodations on exams and assignments in advance. Please email OAE forms to [cs161-staff-win2425@cs.stanford.edu](mailto:cs161-staff-win2425@cs.stanford.edu) or post privately on {% include aux.liquid link='Ed' %}.
+Students who may need academic accommodations based on the impact of a disability must initiate the request with the Office of Accessible Education (OAE) and notify us at least 10 days prior to the exams. It is the student’s responsibility to reach out to the course staff regarding their accommodations on exams and assignments in advance. Please email OAE forms to [cs161-staff-win2526@cs.stanford.edu](mailto:cs161-staff-win2526@cs.stanford.edu).
 
 ## LaTeX Resources
 
@@ -30,7 +30,7 @@ We strongly recommend typesetting solutions to homework sets in LaTeX. LaTeX is 
 
 ## Homework Resources
 
-**Guidelines:** One of the big skills you'll be developing in CS161 is how to communicate technical material clearly. To that end, we expect homework sets in CS161 to be clear, and easily human-readable. Think of them like memos you might write to a colleague. Better still, think of them as memos that you might write for a team of colleagues, who may be working quickly and also who have control over your grade.
+**Guidelines:** One of the big skills you’ll be developing in CS161 is how to communicate technical material clearly. To that end, we expect homework sets in CS161 to be clear, and easily human-readable. Think of them like memos you might write to a colleague. Better still, think of them as memos that you might write for a team of colleagues, who may be working quickly and also who have control over your grade.
 
 Your homeworks should be typed and clearly written with complete sentences and well-organized logic, and should definitely not be your first draft.
 
