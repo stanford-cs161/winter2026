@@ -3,8 +3,8 @@ type: lecture
 number: 18
 subject: What's next?
 times:
-  - begin: 2025-03-11 13:30:00
-    end: 2025-03-11 14:50:00
+  - begin: 2026-03-11 13:30:00
+    end: 2026-03-11 14:50:00
     label: Ellen
 ---
 

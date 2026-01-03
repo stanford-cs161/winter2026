@@ -3,8 +3,8 @@ type: section
 number: 0.5
 subject: Tutorial (Review Section)
 times:
-  - begin: 2025-01-09 13:30:00
-    end: 2025-01-09 14:50:00
+  - begin: 2026-01-09 13:30:00
+    end: 2026-01-09 14:50:00
     label: TBD
 ---
 ##### Resources

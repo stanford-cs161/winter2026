@@ -3,8 +3,8 @@ type: lecture
 number: 1
 subject: Why are you here?
 times:
-  - begin: 2025-01-05 13:30:00
-    end: 2025-01-05 14:50:00
+  - begin: 2026-01-05 13:30:00
+    end: 2026-01-05 14:50:00
     label: Ellen
 ---
 ##### Lecture resources

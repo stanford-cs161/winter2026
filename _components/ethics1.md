@@ -2,8 +2,8 @@
 type: ethics
 number: 1
 times:
-  - begin: 2025-01-24 10:30:00
-    end: 2025-01-24 12:00:00
+  - begin: 2026-01-24 10:30:00
+    end: 2026-01-24 12:00:00
     label: Dan
 ---
 

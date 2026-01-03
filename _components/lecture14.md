@@ -3,8 +3,8 @@ type: lecture
 number: 14
 subject: Greedy Algorithms
 times:
-  - begin: 2025-02-25 13:30:00
-    end: 2025-02-25 14:50:00
+  - begin: 2026-02-25 13:30:00
+    end: 2026-02-25 14:50:00
     label: Ellen
 ---
 ##### Pre-lecture resources

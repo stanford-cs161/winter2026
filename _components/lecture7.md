@@ -3,8 +3,8 @@ type: lecture
 number: 7
 subject: Binary Search Trees and Red-Black Trees
 times:
-  - begin: 2025-01-28 13:30:00
-    end: 2025-01-28 14:50:00
+  - begin: 2026-01-28 13:30:00
+    end: 2026-01-28 14:50:00
     label: Moses
 ---
 

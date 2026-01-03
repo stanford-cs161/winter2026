@@ -2,8 +2,8 @@
 type: ethics
 number: 2
 times:
-  - begin: 2025-02-28 10:30:00
-    end: 2025-03-28 12:00:00
+  - begin: 2026-02-28 10:30:00
+    end: 2026-03-28 12:00:00
     label: Dan
 ---
 ##### Lecture resources

@@ -3,8 +3,8 @@ type: lecture
 number: 12
 subject: "Dynamic Programming: Bellman-Ford and Floyd-Warshall"
 times:
-  - begin: 2025-02-18 13:30:00
-    end: 2025-02-18 14:50:00
+  - begin: 2026-02-18 13:30:00
+    end: 2026-02-18 14:50:00
     label: Ellen
 ---
 

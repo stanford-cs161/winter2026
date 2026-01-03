@@ -2,8 +2,8 @@
 type: homework
 number: 7
 times:
-  - begin: 2025-02-25 23:59:00
-    end: 2025-03-04 23:59:00
+  - begin: 2026-02-25 23:59:00
+    end: 2026-03-04 23:59:00
 ---
 * Problems: {% include magiclink name='homework7.pdf' %}
 * LaTeX template: {% include magiclink name='hw7.zip' %}

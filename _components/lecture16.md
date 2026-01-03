@@ -3,8 +3,8 @@ type: lecture
 number: 16
 subject: Max-Flow and the Ford-Fulkerson Algorithm
 times:
-  - begin: 2025-03-04 13:30:00
-    end: 2025-03-04 14:50:00
+  - begin: 2026-03-04 13:30:00
+    end: 2026-03-04 14:50:00
     label: Moses
 ---
 

@@ -3,8 +3,8 @@ type: lecture
 number: 2
 subject: Asymptotics, Worst-Case Analysis, and MergeSort
 times:
-  - begin: 2025-01-07 13:30:00
-    end: 2025-01-07 14:50:00
+  - begin: 2026-01-07 13:30:00
+    end: 2026-01-07 14:50:00
     label: Ellen
 ---
 ##### Pre-lecture resources

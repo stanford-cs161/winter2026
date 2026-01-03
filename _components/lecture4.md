@@ -3,8 +3,8 @@ type: lecture
 number: 4
 subject: Median and Selection
 times:
-  - begin: 2025-01-14 13:30:00
-    end: 2025-01-14 14:50:00
+  - begin: 2026-01-14 13:30:00
+    end: 2026-01-14 14:50:00
     label: Moses
 ---
 ##### Pre-lecture resources
