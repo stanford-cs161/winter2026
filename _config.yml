@@ -20,7 +20,7 @@ description: Stanford University, Winter 2026
 author: Moses Charikar and Ellen Vitercik
 baseurl: '/winter2026' # the subpath of your site, e.g. /blog
 url: 'https://stanford-cs161.github.io' # the base hostname & protocol for your site, e.g. http://example.com
-exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
 
 # Data
 roles: ['Instructor', 'Course Manager', 'Course Coordinator', 'Head Course Assistant', 'Course Assistant']
