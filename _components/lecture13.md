@@ -3,9 +3,9 @@ type: lecture
 number: 13
 subject: "More Dynamic Programming: LCS, Knapsack, Independent Set"
 times:
-  - begin: 2025-02-24 10:30:00
-    end: 2025-02-24 12:00:00
-    label: Nima
+  - begin: 2025-02-23 13:30:00
+    end: 2025-02-23 14:50:00
+    label: Ellen
 ---
 ##### Pre-lecture resources
 

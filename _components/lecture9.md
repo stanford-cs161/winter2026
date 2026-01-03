@@ -3,9 +3,9 @@ type: lecture
 number: 9
 subject: Graphs and BFS and DFS
 times:
-  - begin: 2025-02-05 10:30:00
-    end: 2025-02-05 12:00:00
-    label: Nima
+  - begin: 2025-02-04 13:30:00
+    end: 2025-02-04 14:50:00
+    label: Ellen
 ---
 
 ##### Pre-lecture resources

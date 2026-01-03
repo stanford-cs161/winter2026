@@ -3,8 +3,8 @@ type: lecture
 number: 10
 subject: Strongly Connected Components
 times:
-  - begin: 2025-02-10 10:30:00
-    end: 2025-02-10 12:00:00
+  - begin: 2025-02-09 13:30:00
+    end: 2025-02-09 14:50:00
     label: Moses
 ---
 

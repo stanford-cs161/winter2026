@@ -3,8 +3,8 @@ type: lecture
 number: 6
 subject: BucketSort and Lower Bounds for Sorting
 times:
-  - begin: 2025-01-27 10:30:00
-    end: 2025-01-27 12:00:00
+  - begin: 2025-01-26 13:30:00
+    end: 2025-01-26 14:50:00
     label: Moses
 ---
 

@@ -3,9 +3,9 @@ type: lecture
 number: 8
 subject: Hashing
 times:
-  - begin: 2025-02-03 10:30:00
-    end: 2025-02-03 12:00:00
-    label: Nima
+  - begin: 2025-02-02 13:30:00
+    end: 2025-02-02 14:50:00
+    label: Ellen
 ---
 ##### Pre-lecture resources
 

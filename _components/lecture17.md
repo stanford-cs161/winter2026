@@ -3,9 +3,9 @@ type: lecture
 number: 17
 subject: Stable Matchings and Gale-Shapley
 times:
-  - begin: 2025-03-10 10:30:00
-    end: 2025-03-10 12:00:00
-    label: Nima
+  - begin: 2025-03-09 13:30:00
+    end: 2025-03-09 14:50:00
+    label: Ellen
 ---
 ##### Pre-lecture resources
 

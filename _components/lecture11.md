@@ -3,8 +3,8 @@ type: lecture
 number: 11
 subject: Dijkstra and Bellman-Ford
 times:
-  - begin: 2025-02-12 10:30:00
-    end: 2025-02-12 12:00:00
+  - begin: 2025-02-11 13:30:00
+    end: 2025-02-11 14:50:00
     label: Moses
 ---
 

@@ -3,8 +3,8 @@ type: lecture
 number: 15
 subject: Minimum Spanning Trees
 times:
-  - begin: 2025-03-03 10:30:00
-    end: 2025-03-03 12:00:00
+  - begin: 2025-03-02 13:30:00
+    end: 2025-03-02 14:50:00
     label: Moses
 ---
 

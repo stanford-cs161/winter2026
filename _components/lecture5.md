@@ -3,9 +3,9 @@ type: lecture
 number: 5
 subject: "Randomized Algorithms and QuickSort "
 times:
-  - begin: 2025-01-22 10:30:00
-    end: 2025-01-22 12:00:00
-    label: Nima
+  - begin: 2025-01-21 13:30:00
+    end: 2025-01-21 14:50:00
+    label: Moses
 ---
 ##### Pre-lecture resources
 

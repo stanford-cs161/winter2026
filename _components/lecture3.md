@@ -3,8 +3,8 @@ type: lecture
 number: 3
 subject: Solving Recurrences and the Master Theorem
 times:
-  - begin: 2025-01-13 10:30:00
-    end: 2025-01-13 12:00:00
+  - begin: 2025-01-12 13:30:00
+    end: 2025-01-12 14:50:00
     label: Moses
 ---
 
