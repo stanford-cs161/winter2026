@@ -1,11 +1,11 @@
 ---
 type: section
 number: 0.5
-subject: Big-O, Complexity, and Induction (Review Section)
+subject: Tutorial (Review Section)
 times:
-  - begin: 2025-01-10 10:30:00
-    end: 2025-01-10 12:00:00
-    label: Aidan, Skilling auditorium
+  - begin: 2025-01-09 13:30:00
+    end: 2025-01-09 14:50:00
+    label: TBD
 ---
 ##### Resources
 

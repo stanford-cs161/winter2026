@@ -3,9 +3,9 @@ type: section
 number: 9.5
 subject: Final Review (Review Section)
 times:
-  - begin: 2025-03-14 10:30:00
-    end: 2025-03-14 12:00:00
-    label: Ruiquan, Skilling Auditorium
+  - begin: 2025-03-13 13:30:00
+    end: 2025-03-13 14:50:00
+    label: TBD
 ---
 ##### Resources
 
