@@ -1,13 +1,15 @@
+{%- assign current_time = "now" | date: "%Y%m%d%H%M" -%}
+
 {% assign components = site.components | where: 'type', include.type | sort: 'number' %} 
 {% for component in components %} 
-    {% assign release_date = component.times[0].begin %}
-    {% assign is_restricted = "homework,lecture" | split: "," %}
+    {%- assign release_date = component.times[0].begin | date: "%Y%m%d%H%M" -%}
+    {%- assign is_restricted = "homework,lecture" | split: "," -%}
 
-    {% if is_restricted contains component.type %}
-        {% if release_date <= site.time %}
-            {{ component }} 
-        {% endif %}
-    {% else %}
-        {{ component }} 
-    {% endif %}
+    {%- if is_restricted contains component.type -%}
+        {%- if release_date <= current_time -%}
+            {{ component.content }}
+        {%- endif -%}
+    {%- else -%}
+      {{ component.content }}
+    {%- endif -%}
 {% endfor %}
