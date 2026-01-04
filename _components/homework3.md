@@ -5,5 +5,5 @@ times:
   - begin: 2026-01-21 23:59:00
     end: 2026-01-28 23:59:00
 ---
-* Problems: {% include magiclink name='homework3.pdf' %}
-* LaTeX template: {% include magiclink name='homework3-template.zip' %}
+* Problems: 
+* LaTeX template: 

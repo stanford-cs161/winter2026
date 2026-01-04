@@ -10,9 +10,4 @@ Homeworks 1-3 will be individual submissions, which means that students should t
 
 ## Homework
 
-{% assign all_homework = site.components | where: "type", "homework" %}
-{% assign visible_homework = all_homework | where_exp: "item", "item.times[0].begin <= site.time" %}
-
-{% for component in visible_homework %}
-  {{ component.content }}
-{% endfor %}
+{% include components type='homework' %}
