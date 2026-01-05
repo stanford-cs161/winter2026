@@ -9,7 +9,7 @@ times:
 ---
 ##### Lecture resources
 * Lecture notes: {% include magiclink name='lecture1-notes.pdf' %}
-* Slides: {% include magiclink name='lecture1-slides.pdf' %} {% include magiclink name='lecture1-slides.pptx' %}
+* Slides: {% include magiclink name='Lecture1.pdf' %}
 * Python notebook: {% include ipynb name='lecture1_karatsuba' %}
 * Concept check questions: {%include bank name='multiplication' %}
 * Additional reading: AI Part I 1.1, 1.2, 1.3, 3.1
