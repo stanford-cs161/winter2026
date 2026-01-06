@@ -15,4 +15,4 @@ times:
 * Additional reading: AI Part I 1.1, 1.2, 1.3, 3.1
 
 ##### Recording
-* Video: [[Canvas](https://stanford-pilot.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=33c754dc-1b4f-4dee-98be-b243016dd686)]
+* Video: 

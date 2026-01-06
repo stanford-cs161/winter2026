@@ -22,4 +22,4 @@ times:
 
 ##### Recording
 
-* Video: [[Canvas](https://stanford-pilot.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=72466d2c-ed67-4f06-8fa1-b243016dd89c)]
+* Video: 
