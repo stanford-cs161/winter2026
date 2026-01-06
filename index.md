@@ -12,9 +12,6 @@ seo:
 {{ site.description }}
 {: .fs-6 .fw-300 }
 
-### NOTICE:
-**The course website is currently being updated and changes are being made up until the first day of the quarter. Please check back on 1/5 for the most updated version of the website.**
-
 **Instructors:** {{ site.author }}
 
 **Time:** Mon & Wed 1:30 pm - 2:50 pm
