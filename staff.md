@@ -7,7 +7,11 @@ nav_order: 9
 ## Office Hours
 
 * Office hour schedule can be found on the [Office Hours Calendar](https://calendar.google.com/calendar/u/0?cid=Y18yNDRhYzZkNzdjNzE2MjA0MDVjMDFmNjhjZmJjMjllOWZmMGI3OTZlMTNmNzM4ZDUyMzc2NDIzNDEzYzg0MDJmQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20).
-* Office hours will be hosted either on Zoom or in person. All in-person OH will be group style, meaning that CAs go over problems in front of groups of students. Remote OH can be group style, where students join breakout rooms for the problem that they are working on, or 1-on-1, where students sign up on the queue on [queuestatus](https://queue.cs.stanford.edu/queues/33FZ7Pjm646CQAkIFshsyyYfm84). The OH calendar specifies the type of each OH session.
+* Office hours will be hosted either on Zoom or in person. All in-person OH will be group style, meaning that CAs go over problems in front of groups of students. Remote OH can be group style, where students join breakout rooms for the problem that they are working on, or 1-on-1, where students sign up on the queue on [queue.cs.stanford](https://queue.cs.stanford.edu/queues/33FZ7Pjm646CQAkIFshsyyYfm84). The OH calendar specifies the type of each OH session.
+
+<div class="calendar-container">
+  <iframe src="https://calendar.google.com/calendar/u/0?cid=Y18yNDRhYzZkNzdjNzE2MjA0MDVjMDFmNjhjZmJjMjllOWZmMGI3OTZlMTNmNzM4ZDUyMzc2NDIzNDEzYzg0MDJmQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+</div>
 
 ## Staff Contact
 
