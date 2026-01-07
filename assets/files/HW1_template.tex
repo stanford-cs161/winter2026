@@ -1,0 +1,112 @@
+ \documentclass [12pt]{article} 
+
+
+
+\usepackage {amsmath} \usepackage {amsthm} \usepackage {amssymb} \usepackage {graphicx} \usepackage {float} \usepackage {multirow} \usepackage {xcolor} \usepackage {algorithmic} \usepackage [ruled,vlined,commentsnumbered,titlenotnumbered]{algorithm2e} \usepackage {array} \usepackage {booktabs} \usepackage {url} \usepackage {parskip} \usepackage [margin=1in]{geometry} \usepackage [T1]{fontenc} \usepackage {cmbright} \usepackage [many]{tcolorbox} \usepackage {hyperref} \usepackage {enumitem} \usepackage {xparse} 
+
+
+
+
+
+\DeclareTColorBox {Solution}{}{breakable, title={Solution}} \DeclareTColorBox {Solution*}{}{breakable, title={Solution (provided)}} \DeclareTColorBox {Instruction}{}{boxrule=0pt, boxsep=0pt, left=0.5em, right=0.5em, top=0.5em, bottom=0.5em, arc=0pt, toprule=1pt, bottomrule=1pt} \DeclareDocumentCommand {\Expecting }{+m}{\textbf {[We are expecting:} #1\textbf {]}} \DeclareDocumentCommand {\Points }{m}{\textbf {(#1 pt.)}} 
+
+
+
+
+
+\begin {document} 
+
+{\LARGE \textbf {CS 161 (Stanford, Winter 2026)}\hfill \textbf {Homework 1} } 
+
+\vspace {1em} \begin {Instruction} \paragraph {Style guide and expectations:} We do NOT accept handwritten solutions. Please see the ``Homework'' part of the ``Resources'' section on the webpage for guidance on what we look for in homework solutions. We will grade according to these standards. You should cite all sources you used outside of the course material. Please do not distribute this material on any public forum. 
+
+\paragraph {What we expect:} Make sure to look at the ``\textbf {We are expecting}'' blocks below each problem to see what we will be grading for in each problem! \end {Instruction} 
+
+\vspace {1em} \begin {Instruction} \paragraph {Exercises.} The following questions are exercises. We suggest you do these on your own. As with any homework question, though, you may ask the course staff for help. \end {Instruction} 
+
+\section {Course Policies \Points {1}} Have you read the course policies on the website? 
+
+\Expecting {The answer ``yes."}  
+
+\begin{Solution}
+% Your solution
+\end{Solution}
+
+\section {Prerequisite Quiz \Points {1}} Have you completed the prerequisite quiz? 
+
+\Expecting {The answer ``yes."}  
+
+\newpage
+
+\section {Complexity Bounds \Points {6}} For each row $i$, indicate whether $A_i$ is in O, $\Omega $, or $\Theta $ of $B_i$. Mark all that apply. The first two rows are examples.
+All logs appearing in the table are in base $2$.
+
+\begin {table}[H] \centering \setlength {\extrarowheight }{3pt} \begin {tabular}{|l|l|l|l|l|} \hline \textbf {A} & \textbf {B} & \textbf {$O$} & \textbf {$\Omega $} & \textbf {$\Theta $} \\ \hline $5n$ & $n$ & \checkmark & \checkmark & \checkmark \\ \hline $5$ & $n$ & \checkmark & & \\ \hline $n^2$ & $2^{10}n$ & & & \\ \hline $(7/8)^n$ & $(8/7)^n$ & & & \\ \hline $8^n$ & $4^n$ & & & \\ \hline $n^5$ & $32^{\log n}$ & & & \\ \hline $n^{2025}$ & ${2025}^n$ & & & \\ \hline $n^{0.8}$ & $(0.8)^n$ & & & \\ \hline $n^{\log 3}$ & $3^{\log n}$ & & & \\ \hline $\log (n!)$ & $\log (n^n)$ & & & \\ \hline $n^{1/\log n}$ & $1$ & & & \\ \hline $\log ^7n$ & $n^{0.7}$ & & & \\ \hline $\log (\sqrt n)$ & $\sqrt [4]{n}$ & & & \\ \hline $\log (\sqrt n)$ & $\sqrt {\log n}$ & & & \\ \hline \end {tabular} \end {table} 
+
+\Expecting {All valid spaces in the table to be marked (checkmark, “x”, etc.). No explanation is required.} 
+
+ 
+\newpage
+
+\section {Big-O Proofs} 
+
+Using the definition of big-O from class, formally prove the following statements. \Expecting {For each part, a rigorous (but short) proof, using the definition of big-O.} \subsection {First part \Points {5}} Show $3n^3 + 4n^2 = O(n^3)$.  \subsection {Second part \Points {5}} Show $16^n$ is \textbf {not} $O(2^n)$.  
+
+\newpage
+
+\vspace {1em} \begin {Instruction} \paragraph {Problems.} The following questions are problems. You may talk with your fellow CS 161-ers about the problems. However: \begin {itemize} \item Try the problems on your own \emph {before} collaborating. \item Write up your answers yourself, in your own words. You should never share your typed-up solutions with your collaborators. \item If you collaborated, list the names of the students you collaborated with at the beginning of each problem. \end {itemize} \end {Instruction} 
+
+\section {Ocean View} Lucky the Lemur loves the beach, and wants to get the best view of the ocean from the coast. He has a map of the terrain, which is m-pixels tall and n-pixels wide. On the map, land has a pixel value of 1 and water has a pixel value of 0. In any given row, all the land pixels are to the left of all the water pixels. In this problem, you will design algorithms that find the “best ocean viewing spot,” which are the pixel coordinates of the land closest to the ocean (i.e. the rightmost point of land). 
+
+The input of your algorithm is an m x n matrix, where land is represented with 1s and water is represented with 0s. The output is the location coordinate of the rightmost land pixel. 
+We assume that the input matrix has been imported, and the algorithm can access any entry of the matrix in $O(1)$ time.
+
+In this example matrix below, $m=4$ and $n=5$. We output (1, 3) since this is the rightmost land coordinate (assuming we use 0-based indexing). In the event that there are multiple best ocean viewpoints, return any valid coordinate. 
+
+$$\begin {bmatrix} 1 & 1 & 0 & 0 & 0 \\ 1 & 1 & 1 & \textbf {1} & 0 \\ 1 & 0 & 0 & 0 & 0 \\ 1 & 1 & 1 & 0 & 0 \\ \end {bmatrix}.$$ 
+
+\subsection {First part \Points {5}} Devise an algorithm that runs in $O(m \log n)$ time to find the best ocean viewpoint. 
+
+\Expecting {Pseudocode for your algorithm and a clear English description of what your algorithm is doing.} 
+
+ 
+
+\subsection {Second part \Points {5}} Devise an algorithm that runs in $O(m + n)$ time to find the best ocean viewpoint. 
+
+\Expecting {Pseudocode for your algorithm and a clear English description of what your algorithm is doing.} 
+
+ 
+
+\subsection {Third part \Points {3}} Lucky, upon happily using these algorithms at different coastal locations, notices that sometimes it's more efficient to use the first algorithm, but sometimes it's more efficient to use the second algorithm. For each of the values of $n$ below, determine which algorithm is the winner in terms of efficiency (or state that they are equally efficient). The case $n=m$ is filled in as an example. 
+
+\begin {center} \begin {tabular}{c|c|c|c|c|c|c|c} $n = \ ?$ & 500 & $m^{0.2}$ & $\frac {m}{\log m}$ & $m$ & $m \log m$ & $m^{10}$ & $8^m$ \\ \hline Runtime for (a) & \hspace {1cm} & \hspace {1cm} & \hspace {1cm} & $O(m \log m)$ & \hspace {1cm} & \hspace {1cm} & \hspace {1cm} \\ Runtime for (b) & \hspace {1cm} & \hspace {1cm} & \hspace {1cm} & $O(m)$ & \hspace {1cm} & \hspace {1cm} & \hspace {1cm} \\ Which is better? & \hspace {1cm} & \hspace {1cm} & \hspace {1cm} & (b) & \hspace {1cm} & \hspace {1cm} & \hspace {1cm} \\ \end {tabular} \end {center} 
+
+\Expecting {For each value of $n$ in terms of $m$, write the best big-O runtimes you can guarantee for both algorithms (a) and (b), and a conclusion on which is the more efficient choice, asymptotically. You do not need to write any formal proofs, but your answers should be \textbf {in the simplest terms possible}.} 
+
+ 
+
+\subsection {Fourth part \Points {2}} Based on your results from $3.3$, how could Lucky combine algorithms (a) and (b) to create a more efficient algorithm? 
+
+\Expecting {A 1-2 sentence summary of your results from the previous part, and a conclusion on how Lucky could create a new algorithm that combines the efficiencies of both algorithms. No runtime analysis is needed.} 
+
+\newpage
+
+\section {Alien Arithmetic \Points {10}} Plucky, an inquisitive penguin mathematician, has been exploring ancient ice caves in Antarctica, where he stumbles upon a mysterious tablet depicting a long lost alien civilization. The tablet illustrates the aliens' mathematical prowess. Interestingly, he discovers that they use the same base 10 numerical system, addition, and subtraction as we do, but their system of multiplication is completely different. Their special multiplication operation is denoted as $\star $. Plucky notices a 1-digit multiplication table carved into the icy surface. Here are some examples: $$1 \star 1 = 3 \qquad \qquad 2 \star 3 = 19 \qquad \qquad 3 \star 5 = 49 \qquad \qquad 9 \star 9 = 243$$ and so on. After months of pecking away at the problem, Plucky deduces the underlying rule behind this operation: $$x \star y = x^2 + xy + y^2.$$ 
+
+Plucky is thrilled by this discovery and wonders whether this multiplication operation could revolutionize mathematical techniques. To start, Plucky decides to test whether the $\star $ operation is at least as efficient as the methods devised by his own penguin ancestors. 
+
+Plucky wants to design an algorithm to compute the $\star $ product of two $n$-digit numbers that runs in $O(n^{\log _2 3})$ time. For example, if given $x = 4321$ and $y = 1234$, the algorithm should output $x \star y = 25525911$. However, Plucky must strictly follow the rules of the tablet and cannot refer to his own form of multiplication (even implicitly as a sum). For example, terms like $x^2$, $xy$, or $y^2$ cannot be explicitly computed. 
+
+Help Plucky figure out an efficient way to compute the $\star $ product and determine whether this ancient math could hold the key to a faster form of computation! Assume that $n$ is always a power of $2$, and Plucky’s penguin-built computers are capable of performing basic arithmetic operations like addition, subtraction, and digit-shifting. You may also assume that the computers have easy access to the $\star $-multiplication table found in the tablet. 
+
+\textbf {[Hint:} Let $x = a \cdot 10^{n/2} + b$ and $y = c \cdot 10^{n/2} + d$ for some $n/2$-digit numbers $a$, $b$, $c$, $d$. Can you find a way to rewrite $x\star y$ in terms of $(a+b)$, $(c+d)$, $(a\star c)$, and $(b\star d)$?\textbf {]} 
+
+\Expecting {An expansion of $x\star y$ in terms of $(a+b)$, $(c+d)$, $(a\star c)$, and $(b\star d)$, pseudocode for your algorithm, and a clear English description of what your algorithm is doing. You do not need to prove that your algorithm is correct.} 
+
+ 
+
+
+
+
+
+\end {document} 
