@@ -15,7 +15,7 @@ times:
 ##### Lecture resources
 
 * Lecture notes: {% include magiclink name='lecture2-notes.pdf' %}
-* Slides: {% include magiclink name='lecture2-slides.pdf' %} {% include magiclink name='lecture2-slides.pptx' %}
+* Slides: {% include magiclink name='Lecture2.pdf' %}
 * Proof that InsertionSort is Correct: {% include magiclink name='CS161Lecture02_handout.pdf' %}
 * Python notebook: {% include ipynb name='lecture2_sorting' %}
 * Concept check questions on asymptotics: {% include bank name='asymptotics' %}
