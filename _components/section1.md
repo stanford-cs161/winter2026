@@ -17,5 +17,5 @@ times:
 ---
 ##### Resources
 
-* Handout: 
-* Slides: 
+* Handout: {% include magiclink name='Section1.pdf' %}
+* Slides: {% include magiclink name='Section1_Sols.pdf' %}
