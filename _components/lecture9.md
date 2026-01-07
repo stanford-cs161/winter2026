@@ -15,7 +15,7 @@ times:
 ##### Lecture resources
 
 * Lecture notes: {% include magiclink name='lecture9-notes.pdf' %}
-* Slides: {% include magiclink name='lecture9-slides.pdf' %} {% include magiclink name='lecture9-slides.pptx' %}
+* Slides: 
 * Python notebook: {% include ipynb name='lecture9_graphs' %}
 * Concept check questions: {% include bank name='bfsdfs' %}
 * Additional reading: AI Part II 7, 8.1, 8.2, 8.3, 8.4, 8.5; CLRS 22.1, 22.2, 22.3, 22.4

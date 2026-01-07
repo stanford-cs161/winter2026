@@ -15,7 +15,7 @@ times:
 ##### Lecture resources
 
 * Lecture notes: {% include magiclink name='lecture3-notes.pdf' %}
-* Slides: {% include magiclink name='lecture3-slides.pdf' %} {% include magiclink name='lecture3-slides.pptx' %}
+* Slides: 
 * Concept check questions: {% include bank name='recurrence' %}
 * Additional reading: AI Part I 4; CLRS 4.3, 4.4, 4.5
 

@@ -18,4 +18,4 @@ times:
 ##### Resources
 
 * Handout: {% include magiclink name='Section1.pdf' %}
-* Handout Sol: {% include magiclink name='Section1_Sols.pdf' %}
+* Handout Solutions: {% include magiclink name='Section1_Sols.pdf' %}

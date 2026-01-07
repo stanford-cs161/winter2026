@@ -14,7 +14,7 @@ times:
 ##### Lecture resources
 
 * Lecture notes: {% include magiclink name='lecture5-notes.pdf' %}
-* Slides: {% include magiclink name='lecture5-slides.pdf' %} {% include magiclink name='lecture5-slides.pptx' %}
+* Slides: 
 * Python notebook: {% include ipynb name='lecture5_quicksort' %}
 * Concept check questions: {% include bank name='random' %}
 * Additional reading: AI Part I 5; CLRS 5.1, 5.2, 5.3, 7
