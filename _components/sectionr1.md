@@ -9,8 +9,7 @@ times:
 ---
 ##### Resources
 
-* Induction slides: 
-* Big-Oh slides: 
+* Slides: {% include magiclink name='Review Session 1 - Induction & Big-O.pdf' %}
 
 ##### Recording
 
