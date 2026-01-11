@@ -85,7 +85,7 @@ $$\begin {bmatrix} 1 & 1 & 0 & 0 & 0 \\ 1 & 1 & 1 & \textbf {1} & 0 \\ 1 & 0 & 0
 
  
 
-\subsection {Fourth part \Points {2}} Based on your results from $3.3$, how could Lucky combine algorithms (a) and (b) to create a more efficient algorithm? 
+\subsection {Fourth part \Points {2}} Based on your results from Question 5.3, how could Lucky combine algorithms (a) and (b) to create a more efficient algorithm? 
 
 \Expecting {A 1-2 sentence summary of your results from the previous part, and a conclusion on how Lucky could create a new algorithm that combines the efficiencies of both algorithms. No runtime analysis is needed.} 
 
@@ -99,9 +99,9 @@ Plucky wants to design an algorithm to compute the $\star $ product of two $n$-d
 
 Help Plucky figure out an efficient way to compute the $\star $ product and determine whether this ancient math could hold the key to a faster form of computation! Assume that $n$ is always a power of $2$, and Plucky’s penguin-built computers are capable of performing basic arithmetic operations like addition, subtraction, and digit-shifting. You may also assume that the computers have easy access to the $\star $-multiplication table found in the tablet. 
 
-\textbf {[Hint:} Let $x = a \cdot 10^{n/2} + b$ and $y = c \cdot 10^{n/2} + d$ for some $n/2$-digit numbers $a$, $b$, $c$, $d$. Can you find a way to rewrite $x\star y$ in terms of $(a+b)$, $(c+d)$, $(a\star c)$, and $(b\star d)$?\textbf {]} 
+\textbf {[Hint:} Let $x = a \cdot 10^{n/2} + b$ and $y = c \cdot 10^{n/2} + d$ for some $n/2$-digit numbers $a$, $b$, $c$, $d$. Can you find a way to rewrite $x\star y$ in terms of $(a+b) \star (c+d)$, $(a\star c)$, and $(b\star d)$?\textbf {]} 
 
-\Expecting {An expansion of $x\star y$ in terms of $(a+b)$, $(c+d)$, $(a\star c)$, and $(b\star d)$, pseudocode for your algorithm, and a clear English description of what your algorithm is doing. You do not need to prove that your algorithm is correct.} 
+\Expecting {An expansion of $x\star y$ in terms of $(a+b) \star (c+d)$, $(a\star c)$, and $(b\star d)$, pseudocode for your algorithm, and a clear English description of what your algorithm is doing. You do not need to prove that your algorithm is correct.} 
 
  
 
