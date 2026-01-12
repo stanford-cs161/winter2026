@@ -1,11 +1,11 @@
 backend:
   name: github
-  repo: stanford-cs161/winter2025
+  repo: stanford-cs161/winter2026
   branch: main
   site_domain: romantic-yonath-be0ac4.netlify.app
 publish_mode: editorial_workflow
 media_folder: '/assets/files'
-site_url: https://stanford-cs161.github.io/winter2025
+site_url: https://stanford-cs161.github.io/winter2026
 collections:
   - name: 'pages'
     label: 'Pages'
