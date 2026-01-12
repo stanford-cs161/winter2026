@@ -7,7 +7,6 @@ times:
     end: 2026-01-12 14:50:00
     label: Moses
 ---
-
 ##### Pre-lecture resources
 
 * Pre-lecture exercise: {% include magiclink name='lecture3-pre.pdf' %}
@@ -15,10 +14,10 @@ times:
 ##### Lecture resources
 
 * Lecture notes: {% include magiclink name='lecture3-notes.pdf' %}
-* Slides: 
+* Slides: {% include magiclink name='lecture3-slides.pdf' %} {% include magiclink name='lecture3-slides.pptx' %}
 * Concept check questions: {% include bank name='recurrence' %}
 * Additional reading: AI Part I 4; CLRS 4.3, 4.4, 4.5
 
 ##### Recording
 
-* Video: 
+* Video:
