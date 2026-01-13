@@ -9,7 +9,7 @@ times:
 
 ##### Lecture resources
 
-* Slides: {% include magiclink name='ethics1.pdf' %} {% include magiclink name='ethics1.pptx' %}
+* Slides:
 
 ##### Recording
 
