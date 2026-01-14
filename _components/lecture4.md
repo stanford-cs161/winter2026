@@ -14,11 +14,11 @@ times:
 ##### Lecture resources
 
 * Lecture notes: {% include magiclink name='lecture4-notes.pdf' %}
-* Slides: 
+* Slides:  {% include magiclink name='lecture4-slides.pdf' %} {% include magiclink name='lecture4-slides.pptx' %}
 * Python notebook: {% include ipynb name='lecture4_select' %}
 * Concept check questions: {% include bank name='select' %}
 * Additional reading: AI Part I 6; CLRS 9
 
 ##### Recording
 
-* Video: 
+* Video:
