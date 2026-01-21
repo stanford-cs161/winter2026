@@ -1,0 +1,376 @@
+% The following package automatically creates template.tex with comments and Solution environments stripped.
+% It might be easier to comment out the PeelDocument command and the ending brace at the end of the file while you're working on the document in Overleaf. Without doing so, error line numbers get messed up. Don't forget to uncomment them when you are ready to generate template.tex.
+% On Overleaf you can download template.tex by going to "Logs and output files" and clicking on "Other logs and files".
+% If you want a solution to remain in the stripped version, use the alternative starred environment Solution*.
+
+
+
+\documentclass[12pt]{article}
+
+% -- Packages
+
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{multirow}
+\usepackage{xcolor}
+\usepackage{algorithmic}
+\usepackage[ruled,vlined,commentsnumbered,titlenotnumbered]{algorithm2e}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{url}
+\usepackage{parskip}
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{cmbright}
+\usepackage[many]{tcolorbox}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{xparse}
+
+
+% -- Macros
+
+\DeclareTColorBox{Solution}{}{breakable, title={Solution}}
+\DeclareTColorBox{Solution*}{}{breakable, title={Solution (provided)}}
+\DeclareTColorBox{Instruction}{}{boxrule=0pt, boxsep=0pt, left=0.5em, right=0.5em, top=0.5em, bottom=0.5em, arc=0pt, toprule=1pt, bottomrule=1pt}
+\DeclareDocumentCommand{\Expecting}{+m}{\textbf{[We are expecting:} #1\textbf{]}}
+\DeclareDocumentCommand{\Points}{m}{\textbf{(#1 pt.)}}
+
+
+
+\begin{document}
+
+	{\LARGE
+		\textbf{CS 161 (Stanford, Winter 2026)}\hfill\textbf{Homework 3}
+	}
+	
+	\vspace{1em}
+	\begin{Instruction}
+	\paragraph{Style guide and expectations:} Please see the ``Homework'' part of the ``Resources'' section on the webpage for guidance on what we look for in homework solutions. We will grade according to these standards. You should cite all sources you used outside of the course material. Please do not distribute this material on any public forum.
+	
+	\paragraph{What we expect:} Make sure to look at the ``\textbf{We are expecting}'' blocks below each problem to see what we will be grading for in each problem!
+	\end{Instruction}
+	
+	\vspace{1em}
+	\begin{Instruction}
+		\paragraph{Exercises.} The following questions are exercises. We suggest you do these on your own. As with any homework question, though, you may ask the course staff for help.
+	\end{Instruction}
+	
+	\section{Finding Medians}
+	Given two arrays of length $n$, find the median of the elements in the combined array, i.e., the concatenation of these two arrays.
+	\subsection{\Points{2}} 
+    If the given arrays are unsorted, describe an algorithm that returns the median of the combined array and explain why it has the best possible runtime.
+    
+    \Expecting{A brief description of your algorithm, its runtime, and an informal explanation of why it's the best possible runtime.}
+    \begin{Solution}
+        
+    \end{Solution}
+        
+    
+        \subsection{\Points{4}} 
+        If the given arrays are sorted, can you achieve a better runtime? Assume that your algorithm's input is two sorted arrays, each of the same length $n > 0$.
+        
+	\Expecting{A brief English description, pseudocode, and an explanation of your algorithm's runtime.}
+    
+
+	\section{Randomized Algorithms (12 pt.)}
+	
+    In this exercise, we'll explore different types of randomized algorithms.  We say that a randomized algorithm is a \textbf{Las Vegas algorithm} if it is always correct (that is, it returns the right answer with probability 1), but the runtime is a random variable. We say that a randomized algorithm is a \textbf{Monte Carlo algorithm} if there is some probability that it is incorrect.  For example, QuickSort (with a random pivot) is a Las Vegas algorithm, since it always returns a sorted array, but it might be slow if we get very unlucky.
+
+    We will revisit our population of quaggas and zebras from last week's assignment to gain more insight into randomized algorithms. Assume that there is a \textbf{strict majority} of zebras in the population.
+    Additionally, assume you are given a function \textit{isZebra(p)}, which runs in constant time, such that it returns true if animal $p$ is a zebra and returns false otherwise.
+    Also assume that choosing a random animal takes constant time.
+    Here are three algorithms to find a zebra.
+
+\begin{algorithm}[H]
+\KwIn{A population $P$ of $n$ animals}
+\While{true}
+{
+Choose a random $p \in P$\; 
+\If{\textsc{isZebra}($p$)}{ \Return{$p$}\; }
+}
+\caption{\textsc{findZebra1}}
+\end{algorithm}
+
+\begin{algorithm}[H]
+\KwIn{A population $P$ of $n$ animals}
+\For{100 iterations}
+{
+Choose a random $p \in P$\;
+\If{\textsc{isZebra}($p$)}{ \Return{$p$}\;}
+}
+\Return{a random $p \in P$\;}
+\caption{\textsc{findZebra2}}
+\end{algorithm}
+
+\begin{algorithm}[H]
+\KwIn{A population $P$ of $n$ animals}
+\tcc{Order the animals in $P$ randomly, and assume it takes $O(n)$ time to do so.}
+\For{ $p \in P$ }
+{
+\If{\textsc{isZebra}($p$)}{ \Return{$p$}\; }
+}
+\caption{\textsc{findZebra3}}
+\end{algorithm}
+
+
+    Decide their types (Monte Carlo or Las Vegas), their expected/worst-case runtime, and their correct probabilities by filling in the following table.
+
+    \begin{center}
+    \begin{tabular}{|c|p{3cm}|p{2cm}|p{2cm}|p{4cm}|}
+    \hline
+    Algorithm & Monte Carlo or Las Vegas? & Expected runtime 
+    & Worst-case runtime & Probability of returning a zebra \\
+    \hline
+    \textbf{findZebra1} &  &  &  & \\
+    \hline
+    \textbf{findZebra2} &  &  &  & \\
+    \hline
+    \textbf{findZebra3} &  &  &  & \\
+    \hline
+    \end{tabular}
+    \end{center}
+
+    \Expecting{Your filled in-table, and a short justification for each entry in the table. You may use Big-O notation for the runtimes. For the ``probability of returning a zebra" column, provide the tightest bound you can get from the given information.}
+
+	
+	\vspace{1em}
+	\begin{Instruction}
+		\paragraph{Problems.} The following questions are problems. You may talk with your fellow CS 161-ers about the problems. However:
+		\begin{itemize}
+			\item Try the problems on your own \emph{before} collaborating.
+			\item Write up your answers yourself, in your own words. You should never share your typed-up solutions with your collaborators.
+			\item If you collaborated, list the names of the students you collaborated with at the beginning of each problem.
+		\end{itemize}
+	\end{Instruction}
+
+\section{QuickSort with Duplicate Entries}
+
+In the lecture, when studying QuickSort, we assume that the array $A$ consists of distinct numbers.
+Now, you want to implement QuickSort to sort your own array, which may include duplicates of the same number.
+
+\subsection{\Points{3}}
+
+In each iteration of QuickSort, let $x$ be the pivot chosen uniformly at random.
+Instead of partitioning the rest of the elements into $A_< = \{\text{elements} < x\}$ and $A_> = \{\text{elements} > x\}$, you decide to partition them into $A_{\leq} = \{\text{elements} \leq x\}$ and $A_> = \{\text{element} > x\}$, and then recursively sort $A_{\leq}$ and $A_>$ after replacing $A$ by $[A_{\leq} \; x \; A_>]$.
+
+Construct an array to demonstrate that the \textbf{expected runtime} of the QuickSort implemented as described above is $\Theta(n^2)$.
+Namely, the implemented QuickSort doesn't even retain its expected runtime guarantee!
+
+\Expecting{An array that may contain duplicate entries, and an analysis of the expected runtime of the implemented QuickSort on this array.}
+
+\subsection{\Points{7}}
+
+Modify the partition step so that the expected runtime of the resulting QuickSort becomes $O(n \log n)$ even for arrays with duplicate elements.
+Moreover, what are the expected and worst-case runtimes of the updated QuickSort on the array constructed in the previous subproblem?
+
+\textbf{Hint:} Try to argue the expected runtime by comparing to QuickSort with distinct elements.
+
+\Expecting{Pseudocode for the updated QuickSort \textbf{AND} a clear English description of the algorithm.
+Additionally, an informal justification of the $O(n \log n)$ expected runtime, and an explanation of the expected and worst-case runtimes on the array constructed in the previous subproblem.}
+    
+    
+	
+\section{Dancing Ducks}
+
+You have encountered a troupe of $n$ dancing ducks who are each labeled with a number $0, \ldots, n-1$ in some order, where $n$ is a power of $2$. The $i^{th}$ duck is labeled with the number $A[i]$.
+
+The $n$ ducks dance in a line, and they only know one type of dance move, called \texttt{Flip(A,i,j)}:  for any $i$ and $j$ such that $0 \leq i < j \leq n$, \texttt{Flip(A,i,j)} flips the order of the ducks standing in positions $i, i+1, \ldots, j-1$ in array $A$.  For example, if the ducks started out like this:
+\begin{center}
+\begin{tikzpicture}
+\foreach \i in {0, ..., 7}
+{
+\node at (\i, 0) {\includegraphics[width=1cm]{duck}};
+}
+\begin{scope}[xshift=0.05cm, yshift=-.1cm]
+\node at (-1,0) {Duck:};
+\node at (0, 0) {$4$};
+\node at (1, 0) {$1$};
+\node at (2, 0) {$2$};
+\node at (3, 0) {$3$};
+\node at (4, 0) {$0$};
+\node at (5, 0) {$7$};
+\node at (6, 0) {$5$};
+\node at (7, 0) {$6$};
+\end{scope}
+\begin{scope}[xshift=0.05cm, yshift=-1.3cm]
+\node[blue] at (-1,0) {Index:};
+\node[blue] at (0, 0) {$0$};
+\node[blue] at (1, 0) {$1$};
+\node[blue] at (2, 0) {$2$};
+\node[blue] at (3, 0) {$3$};
+\node[blue] at (4, 0) {$4$};
+\node[blue] at (5, 0) {$5$};
+\node[blue] at (6, 0) {$6$};
+\node[blue] at (7, 0) {$7$};
+\end{scope}
+\end{tikzpicture}
+\end{center}
+
+then after executing \texttt{Flip(A,1,5)}, the ducks would look like this:
+\begin{center}
+\begin{tikzpicture}
+\foreach \i in {0, ..., 7}
+{
+\node at (\i, 0) {\includegraphics[width=1cm]{duck}};
+}
+\begin{scope}[xshift=0.05cm, yshift=-.1cm]
+\node at (-1,0) {Duck:};
+\node at (0, 0) {$4$};
+\node at (1, 0) {$0$};
+\node at (2, 0) {$3$};
+\node at (3, 0) {$2$};
+\node at (4, 0) {$1$};
+\node at (5, 0) {$7$};
+\node at (6, 0) {$5$};
+\node at (7, 0) {$6$};
+\begin{scope}[xshift=0.05cm, yshift=-1.3cm]
+\node[blue] at (-1,0) {Index:};
+\node[blue] at (0, 0) {$0$};
+\node[blue] at (1, 0) {$1$};
+\node[blue] at (2, 0) {$2$};
+\node[blue] at (3, 0) {$3$};
+\node[blue] at (4, 0) {$4$};
+\node[blue] at (5, 0) {$5$};
+\node[blue] at (6, 0) {$6$};
+\node[blue] at (7, 0) {$7$};
+\end{scope}
+\draw[thick, orange] (.5,.4) -- (.5,1.1) -- (4.5,1.1) -- (4.5,.4);
+\node[orange] at (2.5,1.5) {These ducks were reversed.};
+\end{scope}
+\end{tikzpicture}
+\end{center}
+
+Executing this dance move is pretty complicated: it takes the ducks $O(j - i)$ seconds to perform \texttt{Flip(A,i,j)}. 
+
+In this problem, you will design and analyze a duck dance (a.k.a. a sorting algorithm) that solely uses the \texttt{Flip} move (after all, it's the only dance move ducks know) such that after finishing the dance, all $n$ ducks are sorted by their labels. 
+
+The input to your algorithm will be an array $A$ that contains the ducks' values. As an example, if the ducks were organized as pictured above after the flip, then the input array would be $A = [4,0,3,2,1,7,5,6]$.
+Your algorithm can do whatever computations it wants, but the only way you can get the ducks to move is by calling \texttt{Flip(A,i,j)}, which will make them do their \texttt{Flip(A,i,j)} dance move.
+The algorithm will wait until the ducks are done dancing to continue its computations.
+Thus, the total running time of the algorithm includes \em both \em the time spent computing, and the time that the ducks spend dancing.
+
+
+\subsection{\Points {10}}
+First, you will design an algorithm that tells the ducks how to perform a dance called \texttt{Partition(A, i)}. 
+For this dance, the ducks will partition themselves around the duck in position $i$, so that all ducks whose labels are smaller than the duck's label at position $i$ will end up to the left, and all the ducks whose labels are larger will end up to the right.  For example, if the ducks were initially ordered as so:
+\begin{center}
+\begin{tikzpicture}
+\foreach \i in {0, ..., 7}
+{
+\node at (\i, 0) {\includegraphics[width=1cm]{duck}};
+}
+\begin{scope}[xshift=0.05cm, yshift=-.1cm]
+\node at (-1,0) {Duck:};
+\node at (0, 0) {$0$};
+\node at (1, 0) {$4$};
+\node at (2, 0) {$3$};
+\node at (3, 0) {$2$};
+\node at (4, 0) {$1$};
+\node at (5, 0) {$7$};
+\node at (6, 0) {$6$};
+\node at (7, 0) {$5$};
+\end{scope}
+\begin{scope}[xshift=0.05cm, yshift=-1.3cm]
+\node[blue] at (-1,0) {Index:};
+\node[blue] at (0, 0) {$0$};
+\node[blue] at (1, 0) {$1$};
+\node[blue] at (2, 0) {$2$};
+\node[blue] at (3, 0) {$3$};
+\node[blue] at (4, 0) {$4$};
+\node[blue] at (5, 0) {$5$};
+\node[blue] at (6, 0) {$6$};
+\node[blue] at (7, 0) {$7$};
+\end{scope}
+\end{tikzpicture}
+\end{center}
+then after executing \texttt{Partition(A,3)}, the ducks partition themselves around the duck in position 3, whose label is 2.  The resulting ducks formation could look like this:
+\begin{center}
+\begin{tikzpicture}
+\foreach \i in {0, ..., 7}
+{
+\node at (\i, 0) {\includegraphics[width=1cm]{duck}};
+}
+\begin{scope}[xshift=0.05cm, yshift=-.1cm]
+\node at (0, 0) {$1$};
+\node at (1, 0) {$0$};
+\node at (2, 0) {$2$};
+\node at (3, 0) {$5$};
+\node at (4, 0) {$6$};
+\node at (5, 0) {$3$};
+\node at (6, 0) {$7$};
+\node at (7, 0) {$4$};
+\node[orange](a) at (2,2) {Goal: The other ducks should partition around this duck.};
+\draw[thick, orange, ->] (a) to (2,1);
+\end{scope}
+\begin{scope}[xshift=0.05cm, yshift=-1.3cm]
+\node[blue] at (-1,0) {Index:};
+\node[blue] at (0, 0) {$0$};
+\node[blue] at (1, 0) {$1$};
+\node[blue] at (2, 0) {$2$};
+\node[blue] at (3, 0) {$3$};
+\node[blue] at (4, 0) {$4$};
+\node[blue] at (5, 0) {$5$};
+\node[blue] at (6, 0) {$6$};
+\node[blue] at (7, 0) {$7$};
+\end{scope}
+\end{tikzpicture}
+\end{center}
+Notice that it doesn't matter what order the smaller ducks and larger ducks are in.
+
+Give an algorithm that instructs the ducks to implement \texttt{Partition} that runs in total time $O(n \log n)$. Remember, you can only move the ducks around with calls to \texttt{Flip}. 
+
+\textbf{Hint:} Try divide-and-conquer.
+
+\Expecting{
+ Pseudocode \textbf{AND} a clear English explanation of what your algorithm is doing.
+Additionally, an informal justification of the running time. You may appeal to the master theorem if it is relevant. 
+}
+
+\subsection {\Points {1}} 
+You are excited about the \texttt{Partition} algorithm from part (a), because it allows you to tell the ducks how to perform a dance called \texttt{Sort()}, which puts the ducks in sorted order.  The algorithm is as follows:
+
+\begin{verbatim}
+def Sort(A):
+    // A is an array of length n, with the positions of the n ducks
+    // Assume that n is a power of 2.
+
+    // Base case:
+    if n == 1:
+        return
+ 
+    // Get the index of the median, using the Select algorithm from lecture 4
+    i = Select(A,n/2)
+
+    // Tell the ducks to partition themselves around the i'th duck:
+    Partition(A,i)
+
+    // Recurse on both the left and right halves of the duck array.
+    Sort(A[:n/2])
+    Sort(A[n/2:])
+\end{verbatim}
+
+That is, this algorithm first partitions the ducks around the median, which puts the smaller-labeled ducks on the left and the larger-labeled ducks on the right.  Then it recursively sorts the smaller-labeled ducks and the larger-labeled ducks, resulting in a sorted list.
+
+Let $T(n)$ be the running time of \texttt{Sort(A)} on an array $A$ of length $n$.  Write down a recurrence relation that describes $T(n)$.
+
+\Expecting{A recurrence relation of the form $T(n) = a \cdot T(n/b) + O(\text{something...})$, and a short explanation.}
+
+\subsection {\Points {3}}  Explain, without appealing to the master theorem, why the running time of \texttt{Sort(A)} is $O(n \log^2 n)$ on an array of length $n$.  (Note: ``$\log^2n$'' means $(\log n)^2$).  
+
+If it helps, you may ignore the big-Oh notation in your answer in part (b). That is, if your answer in part (b) was $T(n) = a T(n/b) + O(something)$, then you may drop the big-Oh and assume that your recurrence relation is of the form
+$T (n) = a T (n/b) + something$. You may assume that $T(1) \leq 1$, $T(2) \leq 2$. Recall that we are assuming that $n$ is a power of $2$.
+
+\textbf{Hint:} Either the tree method or the substitution method is a reasonable approach here.
+
+\Expecting{An explanation.  You do not need to give a formal proof, but your explanation should be convincing to the grader.  You should \textbf{NOT} appeal to the master theorem, although it's fine to use the ``tree method'' that we used to prove the master theorem.}
+
+
+
+\end{document}
+
+
+
