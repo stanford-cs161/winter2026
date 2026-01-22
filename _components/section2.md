@@ -7,7 +7,7 @@ times:
     label: Will, Bldg. 160, Rm. 315
   - begin: 2026-01-16 12:00:00
     end: 2026-01-16 13:00:00
-    label: Nikhil, Bldg 160, Rm. 125
+    label: Nikil, Bldg 160, Rm. 125
 ---
 ##### Resources
 
