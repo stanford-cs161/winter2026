@@ -14,7 +14,7 @@ times:
 ##### Lecture resources
 
 * Lecture notes: {% include magiclink name='lecture8-notes.pdf' %}
-* Slides: 
+* Slides: {% include magiclink name='Lecture8.pdf' %}
 * Python notebook: {% include ipynb name='lecture8_hashing' %}
 * Concept check questions: {% include bank name='hashing' %}
 * Additional reading: AI Part II 12; CLRS 11
