@@ -10,3 +10,7 @@ times:
 ##### Resources
 
 * Midterm Review slides: {% include magiclink name='midterm_review.pdf' %}
+
+##### Recording
+
+* Video: [[Canvas](https://stanford-pilot.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=74b72cd3-d68a-4cef-9d17-b3e90189dd6d)]
