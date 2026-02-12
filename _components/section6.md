@@ -11,5 +11,5 @@ times:
 ---
 ##### Resources
 
-* Handout: 
-* Slides: 
+* Handout: {% include magiclink name='section6_questions.pdf' %}
+* Handout Solutions: {% include magiclink name='section6_solutions.pdf' %}
