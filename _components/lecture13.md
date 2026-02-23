@@ -14,7 +14,7 @@ times:
 ##### Lecture resources
 
 * Lecture notes: {% include magiclink name='lecture13-notes.pdf' %}
-* Slides: 
+* Slides: {% include magiclink name='Lecture13.pdf' %}
 * Concept check questions: {% include bank name='dp2' %}
 * Additional reading: AI Part III 16; CLRS 15.4
 
