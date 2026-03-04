@@ -5,5 +5,5 @@ times:
   - begin: 2026-03-04 23:59:00
     end: 2026-03-11 23:59:00
 ---
-* Problems: 
-* LaTeX template: 
+* Problems: {% include magiclink name='HW8.pdf' %} 
+* LaTeX template: {% include magiclink name='HW8_template.zip' %}
