@@ -14,7 +14,7 @@ times:
 ##### Lecture resources
 
 * Lecture notes: {% include magiclink name='lecture16-notes.pdf' %}
-* Slides: {% include magiclink name='lecture16-slides.pptx' %}
+* Slides: {% include magiclink name='lecture16-slides.pdf' %} {% include magiclink name='lecture16-slides.pptx' %}
 * Concept check questions: {% include bank name='maxflow' %}
 * Additional reading: CLRS 26.1, 26.2, 26.3; Alexander Schrijver's paper: [On the history of the transportation and maximum flow problem](https://link.springer.com/article/10.1007/s101070100259)
 
