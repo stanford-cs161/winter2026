@@ -14,7 +14,7 @@ times:
 ##### Lecture resources
 
 * Lecture notes: {% include magiclink name='lecture17-notes.pdf' %}
-* Slides: 
+* Slides: {% include magiclink name='Lecture17.pdf' %}
 * Concept check questions: {% include bank name='stablematching' %}
 * Additional reading: [Lecture notes by Tim Roughgarden](https://timroughgarden.org/f16/l/l2.pdf).
 
