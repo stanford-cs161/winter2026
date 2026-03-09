@@ -18,8 +18,6 @@ times:
 * Concept check questions: {% include bank name='stablematching' %}
 * Additional reading: [Lecture notes by Tim Roughgarden](https://timroughgarden.org/f16/l/l2.pdf).
 
-<!--
 ##### Recording
 
-* Video: [[Canvas]()]
--->
+* Video: [[Canvas](https://stanford-pilot.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8273409d-b8d9-43a5-85e6-b408016ce9cc)]
