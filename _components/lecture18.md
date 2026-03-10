@@ -14,7 +14,7 @@ times:
 
 ##### Lecture resources
 
-* Slides: 
+* Slides: {% include magiclink name='Lecture18.pdf' %}
 
 <!--
 Recording
