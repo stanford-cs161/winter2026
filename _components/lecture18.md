@@ -16,8 +16,6 @@ times:
 
 * Slides: {% include magiclink name='Lecture18.pdf' %}
 
-<!--
-Recording
+##### Recording
 
-* Video: [[Canvas]()]
--->
+* Video: [[Canvas](https://stanford-pilot.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b1aa5e4e-f170-4653-82de-b40b000fb042)]
