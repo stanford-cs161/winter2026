@@ -9,4 +9,8 @@ times:
 ---
 ##### Resources
 
-* Final Review slides: 
+* Slides: {% include magiclink name='CS161FinalReviewWinter.pdf' %} {% include magiclink name='CS161FinalReviewWinter.pptx' %}
+
+##### Recording
+
+* Video: 
